@@ -1,3 +1,7 @@
 <template>
-  Search
+  <main>
+    <section>
+      Search
+    </section>
+  </main>
 </template>

@@ -1,3 +1,7 @@
 <template>
-  Profile
+  <main>
+    <section>
+      Profile
+    </section>
+  </main>
 </template>
