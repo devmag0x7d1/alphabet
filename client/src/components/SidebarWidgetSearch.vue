@@ -2,7 +2,7 @@
   <div class="sidebar_widget-search text-14">
     <form>
       <div class="sidebar_widget-search-field">
-        <input class="text-14" type="text" name="search" placeholder="Поиск...">
+        <input class="text-14" type="text" name="query" placeholder="Поиск...">
       </div>
       <div class="sidebar_widget-search-submit">
         <button>
