@@ -7,6 +7,9 @@
         </SidebarWidgetGenreBtn>
       </SidebarWidget>
       <ContentWrapper>
+        <TheBook />
+        <TheBook />
+        <TheBook />
       </ContentWrapper>
     </section>
   </main>
@@ -16,12 +19,14 @@
 import SidebarWidget from "@/components/SidebarWidget.vue";
 import SidebarWidgetGenreBtn from "@/components/SidebarWidgetGenreBtn.vue";
 import ContentWrapper from "@/components/ContentWrapper.vue";
+import TheBook from "@/components/TheBook.vue";
 
 export default {
   components: {
     SidebarWidget,
     SidebarWidgetGenreBtn,
-    ContentWrapper
+    ContentWrapper,
+    TheBook
   },
   data() {
     return {
