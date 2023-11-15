@@ -1,0 +1,18 @@
+version: "3"
+services:
+  db:
+    container_name: alphabet_db
+    image: postgres:15.4
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: alphabet
+      POSTGRES_PASSWORD: pa55word
+      POSTGRES_DB: alphabet
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - alphabet:/var/lib/postgresql/data
+      - ./init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
+    restart: always
+volumes:
+  alphabet:
